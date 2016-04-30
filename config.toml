@@ -1,0 +1,162 @@
+baseurl = "http://www.royalskyways.co.th/"
+languageCode = "en-us"
+title = "Make your business trip as your pleasure"
+theme = "hugo-agency-theme"
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = ""
+
+[params]
+	name = "Rsw"
+	description = "Thailand,Ground Handling in Thailand,FBOs, Flight Support , Flying School"
+	email = "rsw@royalskyways.co.th"
+
+	# Navigation
+	[params.navigation]
+		brand = "Royal Skyways"
+		services = "Our Services"
+		about = "About Us"
+		contact = "Contact Us"
+
+    # Add custom links. Those can be pre- and postpended to the default menu above.
+    # Use the weight attribute to order your custom links. Uncomment the example
+    # below and replace the values with your own.
+
+    # prepended links
+    #[[menu.prepend]]
+    #    url = "http://gohugo.io"
+    #    name = "Hugo"
+    #    weight = 10
+
+
+	# Intro section
+	[params.intro]
+		# To change the background image of the hero, replace 'header-bg.jpg' in
+		# the 'static/img' folder.
+		title = "Welcome To Royal Skyways"
+		subtitle = "Impressive Service Ever"
+		buttonText = "Tell me more"
+
+
+	# Services section
+	[params.services]
+    enable = true
+		title = "Services"
+		subtitle = "Make your business trip as your pleasure."
+
+        [[params.services.row]]
+
+            [[params.services.row.list]]
+								img = "ghd.jpg"
+                title = "Ground Handling Services"
+                description = "Provide ground handing services and Fixed Base Operator service as one stop service for all our customers need."
+
+            [[params.services.row.list]]
+                img = "flyschool.jpg"
+                title = "Aviation Academy "
+                description = "Proudly dedicated to make your dream of flying come true."
+
+								[[params.services.row.list]]
+		                img = "charter.jpg"
+		                title = "Charter Flight"
+		                description = "We have an aircraft that can fly to places in Thailand. The route and the aircraft will be determined according to the customer’s need."
+
+
+    # About section
+	[params.about]
+    enable = true
+		title = "Royal Group"
+		subtitle = "One stop service for all customers need."
+		endpoint = ""
+
+		# The events will be listed from the top to the bottom.
+		# All images are stored under 'static/img/about'.
+		# Replace them with your own.
+		[[params.about.events]]
+			img = "1.jpg"
+			title = "Royal Skyways (RSW)"
+			description = "Royal Skyways Co., Ltd. was founded in July 2008 (originally incorporated under the name “Royal Aviation Support” in late 2002) offering aviation academy services which including Private Pilot License (PPL) and Commercial Pilot License (CPL). In addition, the company also holding a valid Air Operator Certificate (A.O.C.) as to operate all Royal Group’s fleet. Royal Skyways also  provide Ground Handling Services and Air Taxi and Air Charter Services."
+
+		[[params.about.events]]
+			img = "2.jpg"
+			title = "Royal Airport Services (RAS)"
+			description = "Royal Airport Services Co., Ltd. was founded in early 2001 to focus on aviation related services and businesses. With demand for aviation service providers on the rise in the region, the company has expanded its services to cover various needs. The company is now offering variety of professional services which ranging from Repair Station to Fixed Base Operator which in line with Royal Group’s key approach toward one stop service for all customers need."
+
+		[[params.about.events]]
+			img = "3.jpg"
+			title = "Royal Sky (RSC)"
+			description = "Royal Sky Co., Ltd. was established in February 1995, as a trading company which focusing on selling aviation related products to Thai Military and Government entities.  Royal Sky also represents and works with various O.E.M. and O.E.M. authorized dealers / distributors for promoting and selling products and spare parts. Royal Sky has a credible track record backed by several successful projects and achievements with both government and private customers. Royal Sky is actively operates as an Independent Representative of Bell Helicopter, an authorized representative of Hawker Beechcraft."
+
+
+
+	# Client section
+    [params.clients_list]
+        enable = false
+
+    	# All the clients' logos are stored under 'static/img/logos'.
+    	# Replace them with your clients's logos.
+    	[[params.clients]]
+    		logo = "envato.jpg"
+    		link = "#"
+
+    	[[params.clients]]
+    		logo = "designmodo.jpg"
+    		link = "#"
+
+    	[[params.clients]]
+    		logo = "themeforest.jpg"
+    		link = "#"
+
+    	[[params.clients]]
+    		logo = "creative-market.jpg"
+    		link = "#"
+
+
+	# Contact section
+	[params.contact]
+        enable = true
+		title = "Contact us"
+		subtitle  = "Donmuang International Airport Office Tel: +66(0)2 504 3839-40, 531 5872  Fax :+66(0) 2 504 3838, 531 5874 <br>Ground Handling Service Hotline: +66(0)9 0408 4541"
+		buttonText = "Send message"
+
+		# 'warning' defines error messages for invalid inputs
+		[params.contact.form.name]
+			text = "Your Name *"
+			warning = "Please enter your name."
+
+		[params.contact.form.email]
+			text = "Your Email *"
+			warning = "Please enter your email address."
+
+		[params.contact.form.phone]
+			text = "Your Phone *"
+			warning = "Please enter your phone number."
+
+		[params.contact.form.message]
+			text = "Your Message *"
+			warning = "Please enter a message."
+
+
+	# Footer section
+	[params.footer]
+        enable = false
+		copyright = "Published under the Apache License 2.0."
+
+		[[params.footer.social]]
+			icon = "fa-twitter"
+			link = "#"
+
+		[[params.footer.social]]
+			icon = "fa-facebook"
+			link = "#"
+
+		[[params.footer.social]]
+			icon = "fa-linkedin"
+			link = "#"
+
+		[[params.footer.quicklinks]]
+			text = "Privacy Policy"
+			link = "#"
+
+		[[params.footer.quicklinks]]
+			text = "Terms of Use"
+			link = "#"
